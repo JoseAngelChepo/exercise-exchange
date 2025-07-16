@@ -46,7 +46,7 @@ const CardExchange = (props) => {
           onAction={() => exchangeAmount()}
         />
       </div>
-      <style>
+      <style jsx>
         {`
           .container-card {
             border: 1px solid #000;

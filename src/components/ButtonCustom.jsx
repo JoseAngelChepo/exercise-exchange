@@ -17,7 +17,7 @@ const ButtonCustom = (props) => {
             {label}
           </button>
         )}
-      <style>
+      <style jsx>
         {`
           .container-loader {
             height: 40px;

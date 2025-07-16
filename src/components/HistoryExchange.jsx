@@ -39,7 +39,7 @@ const HistoryExchange = (props) => {
           </tbody>
         </table>
       </div>
-      <style>
+      <style jsx>
         {`
           .container-table {
             border: 1px solid #000;

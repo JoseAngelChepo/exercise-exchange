@@ -9,7 +9,7 @@ const CardExchangeContainer = (props) => {
   const [fromCurrency, setFromCurrency] = useState('usd');
   const [toCurrency, setToCurrency] = useState('mxn');
   const [isLoading, setIsLoading] = useState(false);
-
+  
   const exchangeAmount = async () => {
     setIsLoading(true)
     try {
