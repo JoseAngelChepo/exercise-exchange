@@ -25,7 +25,7 @@ const SelectCustom = (props) => {
           </option>
         )}
       </select>
-      <style jsx>
+      <style>
         {`
           .select-custom {
             width: 100px;
